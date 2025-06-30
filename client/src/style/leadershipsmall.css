@@ -1,0 +1,130 @@
+.leader-loading {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+  }
+  
+
+.leader-heading {
+    margin: 10px 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#heading__seeall {
+    display: flex;
+    font-size: medium;
+    align-items: center;
+    gap: 5px;
+    color: #007FFF;
+}
+
+
+.leader-container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.leader-userdisplay {
+    display: flex; 
+    flex-direction: row;
+    height: 29%;
+    align-items: center; 
+    gap:50px;
+}
+
+
+.leader-id-pic {
+    display: flex;
+    height: 100%; 
+    align-items: center; 
+    gap: 5px
+}
+
+.leader-user-profile-pic {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+
+
+.leader-bar-pts {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    width: 65%; 
+    display: flex;
+    gap: 10px;
+    align-items: center
+}
+
+.column {
+    width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+
+   
+}
+.empty-slot {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.leader-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* .column {
+    flex: 1;
+    max-width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+.column * {
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 1200px) {
+    #col-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1050px) {
+    #man-sitting {
+        display: none ;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+}
+
+@media (max-width: 900px) {
+    #col-1 {
+        display: none;
+    }
+}

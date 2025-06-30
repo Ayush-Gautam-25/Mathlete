@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.ins__container {
+    /* border: 1px solid red; */
+    width: 50vw;
+    height: 65vh;
+    padding: 21px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#heading__info {
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+#heading__title {
+    font-family: 'Helvetica', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ib__main {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.main__instructions {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.instruction__id-title {
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    color: #7BBDFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 5px;
+    /* border: 1px solid red; */
+}
+
+.instruction {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-family: 'Inter', sans-serif;
+    /* border: 1px solid red; */
+    
+}
+.instruction__id-title div:first-child {
+    font-size: 35px;
+    padding: 0;
+    margin-bottom: 0;
+    /* border: 1px solid red; */
+}
+
+.img {
+    position: relative;
+    align-content:end;
+}
+
+.ibgame-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    /*  border: 1px solid red; */
+}
+
+.ibgame__main {
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__heading, .main__body, .main__progress, .main__footer {
+    width: 900px;
+}
+
+.main__heading {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.main__body {
+    display: flex;
+    flex-direction: row;   
+    gap: 15px;
+}
+
+.body__quest {
+    width: 90%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.quest__quest-timer {
+    width: 100%;
+}
+
+.body__profile {
+    width: 150px;
+    height: 150px;
+    aspect-ratio: 1/1;
+    /* border: 1px solid red  ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile__pts {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+
+.quest__quest-timer {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 35px; */
+}
+
+.quest__quest-timer-timer {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.ibgame__main * {
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.quest__answer {
+    width: 100%;
+}
+
+.quest__answer input {
+    width: 95%;
+    padding: 12.5px;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 5px;
+    font-size: 13.5px;
+}
+
+.quest__answer input:active {
+    border: none;
+}
+
+.quest__submit {
+    width: 100%;
+    text-align: right;
+}
+
+.quest__submit button:disabled {
+    background-color: rgb(144, 144, 144);
+    cursor: none;
+}
+
+.quest__submit button {
+    padding: 7px 25px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (max-width: 980px) {
+    .img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ins__container {
+        width: 80vw;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .ins__container {
+        width: 90vw;
+
+    }
+} 
+
+@media screen and (max-width: 350px) {
+    .instruction__id-title div:first-child {
+        font-size: 32px;
+    }
+
+    .instruction:last-child {
+        font-size: 14px;
+    }
+}
