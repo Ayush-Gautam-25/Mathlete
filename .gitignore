@@ -1,0 +1,4 @@
+node_modules/
+.env
+build/
+./backend/routes/mathlete-444209-eab9d80e1a33.json
